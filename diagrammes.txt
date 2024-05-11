@@ -1,0 +1,22 @@
+User Cases
+
+Enregistrer une empreinte : permet au étudiants de s'enregistrer
+
+Verifier une empreinte : Verifier sa présence
+
+Avoir la liste de présence : permet au profs ou administration d'avoir la liste de présence
+
+Créer un compte : les profs et administration doivent créer un compte
+
+Se connecter : les profs et administration doivent pour avoir les listes de présence
+
+Notifier : permet de rappeler aux étudiants de vérifier leurs empreintes
+
+
+Modèle statique :
+
+Classe : moule à partir duquel on fabrique les objets. Les objets posédant des attributs et méthodes.
+
+Exemple : Objet Homme a comme attributs nom, prénom, age .... méthodes marcher(), parler(), 
+
+Ici, nous identifions les objets suivants : Etudiant, administration, Enseignant, Personne ou user, liste de presence, 
