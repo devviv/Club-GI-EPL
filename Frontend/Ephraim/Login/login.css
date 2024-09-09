@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0 10px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right bottom, #0448a6, #0448a6);
+    align-items: center;
+}
+
+.login-form {
+    max-width: 435px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 41px 30px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.login-form .step{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.login-form .step h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #0448a6;
+}
+.login-form .step-text h1{
+    background-image:linear-gradient(to right, #0448a6 , #ffffff );
+    padding: 5px 5px;
+    padding-right: 16rem;
+    padding-left: 10px;
+    color: #ffffff;
+    margin-left: -30px;
+
+}
+
+.login-form .step-part {
+    border: 2px dashed #0448a6;
+    padding: 12px 13px;
+    border-radius: 50%;
+    margin-top: -9px;
+}
+
+form .input-box input {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+form .input-box input {
+    height: 57px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #dadae2;
+    border-radius: 5px;
+    background: #f8f8f8;
+    padding: 0 20px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    transition: 0.2 ease;
+}
+
+form .input-box label{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    color: #0448a6;
+}
+
+form .input-box select {
+    height: 57px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #dadae2;
+    border-radius: 5px;
+    background: #f8f8f8;
+    padding: 0 20px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    transition: 0.2 ease;
+}
+
+form .input-box input:focus {
+    border-color: #0448a6;
+}
+
+form .input-box select:focus {
+    border-color: #0448a6;
+}
+
+form .input-box .password-title {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+form .input-box {
+    position: relative;
+}
+
+form button {
+    width: 100%;
+    border-radius: 5px;
+    height: 56px;
+    border: none;
+    background: #0448a6;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+form button:hover {
+    background: #0447a693;
+}
+form .valide-button{
+    display: none;
+}
+.second-part-button,
+.third-part-button
+{
+    display: flex;
+    gap: 10px;
+}
+
+.second-part-button,
+.third-part-button{
+    display: none;
+}
+.second-part,
+.third-part{
+    display: none;
+}
+
+.valide{
+    border: solid 2px rgb(67, 196, 8);
+}
+.unvalide{
+    border: solid 2px rgb(228, 8, 8);
+}

@@ -1,0 +1,133 @@
+/* Centrer les marges et le padding de tous les éléments, aligner le texte à gauche */
+*{
+    margin: auto;
+    padding: auto;
+    text-align: left;
+}
+
+/* Définir la boîte de dimensionnement et cacher le débordement horizontal */
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Centrer les marges et le padding de l'élément avec la classe "body" */
+.body{
+    margin: auto;
+    padding: auto;
+}
+
+/*Style appliquer au titre de premier niveau*/
+h1{
+    text-align: center;
+    margin: 5%;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+/* Style pour les tables : marge supérieure, bordure, largeur et hauteur, boîte de dimensionnement et fusion des bordures */
+table{
+    margin-top: 3%;
+    border: 2px solid #0448a6;
+    width: 80vw;
+    height: 100vh;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),
+                -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour l'en-tête de la table : pas de bordure, disposition en flex, couleur de fond */
+thead{
+    border: none;
+    background-color: #0448a6;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+/* Style pour les lignes de l'en-tête de la table : disposition en colonne, centrage du texte, couleur du texte et de fond */
+thead th{
+    color: #fff;
+    background-color: #0448a6;
+    padding: 1% 10px;
+    text-align: left;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.information span{
+    width: 100%;
+}
+
+/* Style pour les lignes, cellules d'en-tête et cellules de corps du tableau : bordure et padding */
+tbody tr, tbody th, tbody td{
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+}
+
+/* Style pour les lignes paires du corps du tableau : couleur de fond */
+tbody tr:nth-child(even){
+    background-color: #f6f7fc;
+}
+
+/* Bordure pour le corps du tableau */
+tbody{
+    border: 1px solid black;
+}
+
+/* Définir la largeur des éléments SVG */
+svg{
+    width: 20px;
+}
+
+/* Style pour les boutons : pas de bordure, padding, couleur de fond, dimensions, bordure arrondie, marges, disposition en flex, alignement et centrage */
+button{
+    border: none;
+    padding: 1%;
+    background-color: #0448a6;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 5px;
+    margin: 5%  9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+/* Style pour les liens à l'intérieur des boutons : pas de décoration de texte, couleur du texte et taille de police */
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+/* Style pour les éléments de sélection : pas de bordure, dimensions */
+select{
+    border: none;
+    width: 30vw;
+    height: 10vh;
+}
+
+/*Animation*/
+tbody tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+tbody tr:hover{
+    background-color: #eee;
+    transform: scale(1.02);
+}
+
+

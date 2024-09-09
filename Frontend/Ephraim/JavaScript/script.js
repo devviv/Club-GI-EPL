@@ -241,9 +241,6 @@ BtnSuivant.addEventListener("click",()=>{
             sectionThree.style.display = "block"
             step3.style.display = "block"
         }
-
-        validate()
-
 })
 
 let btn3Retour = document.getElementById("btn3Retour")
@@ -289,23 +286,3 @@ let validation5 = document.getElementById("validation5")
 //recuperer les images de validations et de rejet de l'entrée des numeros de phone
 let exclamation6 = document.getElementById("exclamation6")
 let validation6 = document.getElementById("validation6")
-
-
-/**function validateEmail(email) {
-    var re = /^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/;
-    return re.test(email);
-}
-
-    function validate() {
-        var email = inputEmail.value;
-        if (validateEmail(email)) {
-            console.log('Adresse e-mail valide.');
-        } else {
-            console.log('Adresse e-mail non valide.');
-        }
-        return false; // Pour empêcher le formulaire de s'envoyer
-}
-
-  // Ajoutez cet écouteur d'événements à votre bouton de validation
-    BtnSuivant.addEventListener('click', validate);
-    **/

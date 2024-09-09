@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+
+    <div class="login-form">
+
+        <div class="step">
+            <div class="step-text">
+                <h1>
+                    Etape 
+                </h2>
+            </div>
+            <div class="step-part">
+                <h1><span id="step-number"> 01 </span></h1>
+            </div>
+        </div>
+        <form action="#" class="form-container">
+
+        <div class="first-part">
+
+            <div class="input-box box-1">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Nom" required>
+            </div>
+
+            <div class="input-box    box-2">
+                <label for="prenom">Prenoms</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Prenoms" required>
+            </div>
+
+            <div class="input-box    box-3">
+                <label for="numCarte">Numero de carte</label>
+                <input type="number" name="carte" id="numCarte" placeholder="Numero de carte" required>
+            </div>
+
+        </div>
+
+            <div class="second-part">
+                <div class="input-box    box-4">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="EMAIL" placeholder="Entrer votre adresse Email" required>
+                </div>
+    
+                <div class="input-box   box-5">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Entrer votre mot de passe" required>
+                </div>
+    
+                <div class="input-box    box-6">
+                    <label for="number">Numero de Téléphone</label>
+                    <input type="number" name="number" id="number" placeholder="Numero de Telephone">
+                </div>
+    
+                <div class="input-box    box-7">
+                    <label for="sexe">Selectionner votre sexe</label>
+                    <select name="sexe" id="sexe">
+                        <option value="--"> ---</option>
+                        <option value="Masculin"> Masculin</option>
+                        <option value="Féminin"> Féminin</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div class="third-part">
+                <div class="input-box    box-8">
+                    <label for="niveau">Selectionner votre niveau</label>
+                    <select name="niveau" id="niveau">
+                        <option value="--"> ---</option>
+                        <option value="Licence">Licence</option>
+                        <option value="Master"> Master</option>
+                    </select>
+                </div>
+                <div class="input-box  box-9">
+                    <label for="parcours">Selectionner votre parcours</label>
+                    <select name="parcours" id="parcours">
+                        <option value="--"> ---</option>
+                        <option value="Licence - Fondamentale"> Licence - Fondamentale</option>
+                        <option value="Licence - Professionnelle"> Licence - Professionnelle</option>
+                    </select>
+                </div>
+                <div class="input-box  box-10">
+                    <label for="specialite">Selectionner votre spécialité</label>
+                    <select name="specialite" id="specialite">
+                        <option value="--"> --- </option>
+                        <option value="Genie Mecanique">Genie Mecanique</option>
+                        <option value="Genie Civil">Genie Civil</option>
+                        <option value="Genie Informatique">Genie Informatique</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="first-part-button">
+                <button type="submit" id="first-submit">
+                    suivant
+                </button>
+            </div>
+
+            <div class="second-part-button">
+                <button type="submit" id="first-return">
+                    retour
+                </button>
+                <button type="submit" id="second-submit">
+                    suivant
+                </button>
+            </div>
+            <div class="third-part-button">
+
+                <button type="submit" id="second-return">
+                    retour
+                </button>
+
+                <button type="submit" id="third-submit">
+                    suivant
+                </button>
+
+            </div>
+
+            <div class="valide-button">
+                <button type="submit">valider</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

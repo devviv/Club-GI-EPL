@@ -17,7 +17,7 @@ body{
     transform: translate(-50%,-50%);
     align-items: center;
     width: 28vw;
-    height: 45vh;
+    height: 47vh;
     display: inline-block;
     background-color: #fff;
 }
@@ -49,28 +49,30 @@ body{
 }
 #triangle1{
     width: 2vw;
-    height: 3.5vh;
+    height: 3.9vh;
     background-color: #0448a6;
     transform: skew(45deg);
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 26.5%;
+    border: 1px solid #0448a6;
 }
 #triangle2{
     width: 2vw;
-    height: 3.5vh;
+    height: 3.6vh;
     background-color: #0448a6;
     transform: skew(-45deg);
     position: absolute;
-    top: 7.3%;
-    left: 25%;
+    top: 8.5%;
+    left: 26.5%;
+    border: 1px solid #0448a6;
 }
 #etp2{
     background-color: #0448a6;
     padding-left: 35px;
     padding-top: 13px;
     padding-bottom: 13px;
-    width: 8.6rem;
+    width: 8.1rem;
     position: absolute;
     top: 0;
     left: 28%;
@@ -78,23 +80,25 @@ body{
 }
 #triangle3{
     width: 2vw;
-    height: 3.5vh;
+    height: 3.9vh;
     background-color: #0448a6;
     transform: skew(45deg);
     position: absolute;
     top: 0;
     left: 62%;
     display: none;
+    border: 1px solid #0448a6;
 }
 #triangle4{
     width: 2vw;
-    height: 3.5vh;
+    height: 3.6vh;
     background-color: #0448a6;
     transform: skew(-45deg);
     position: absolute;
-    top: 7.4%;
+    top: 8.5%;
     left: 62%;
     display:none;
+    border: 1px solid #0448a6;
 }
 
 #etp3{
@@ -103,7 +107,7 @@ body{
     padding-left: 28px;
     padding-top: 13px;
     padding-bottom: 13px;
-    width: 7.89rem;
+    width: 7.4rem;
     position: absolute;
     top: 0;
     left: 65.9%;
@@ -116,14 +120,14 @@ body{
     width: 20px;
     position: absolute;
     left: 80%;
-    top: 24%;
+    top: 25%;
     display: none;
 }
 #validation{
     width: 20px;
     position: absolute;
     left: 81%;
-    top: 24%;
+    top: 25%;
     display: none;
 }
 #name{
@@ -150,14 +154,14 @@ input[type='number']::-webkit-inner-spin-button ,input[type='number']::-webkit-o
     width: 20px;
     position: absolute;
     left: 80%;
-    top: 43%;
+    top: 45%;
     display:none ;
 }
 #validation2{
     width: 20px;
     position: absolute;
     left: 81%;
-    top: 43%;
+    top: 45%;
     display: none;
 }
 #prenom{
@@ -179,14 +183,14 @@ input[type='number']::-webkit-inner-spin-button ,input[type='number']::-webkit-o
     width: 20px;
     position: absolute;
     left: 80%;
-    top: 62%;
+    top: 65%;
     display:none;
 }
 #validation3{
     width: 20px;
     position: absolute;
     left: 81%;
-    top: 62%;
+    top: 65%;
     display: none;
 }
 #numCarte{
@@ -234,14 +238,14 @@ input[type='number']::-webkit-inner-spin-button ,input[type='number']::-webkit-o
     width: 20px;
     position: absolute;
     left: 80%;
-    top: 22%;
+    top: 23%;
     display:none;
 }
 #validation4{
     width: 20px;
     position: absolute;
     left: 81%;
-    top: 22%;
+    top: 23%;
     display: none;
 }
 #email{
@@ -283,7 +287,6 @@ input[type='number']::-webkit-inner-spin-button ,input[type='number']::-webkit-o
     padding-top :25px;
     padding-bottom: 5px;
     margin:auto;
-    margin-top: 8px;
     background: transparent;
 }
 
@@ -292,13 +295,13 @@ input[type='number']::-webkit-inner-spin-button ,input[type='number']::-webkit-o
 }
 #eyes{
     width: 25px;
-    margin-left: -95px;
+    margin-left: -100px;
     margin-top:30px;
     cursor: pointer;
 }
 #eyes2{
     width: 25px;
-    margin-left: -95px;
+    margin-left: -100px;
     margin-top: 30px;
     display: none;
     cursor: pointer;
@@ -310,14 +313,14 @@ input[type='number']::-webkit-inner-spin-button ,input[type='number']::-webkit-o
     width: 20px;
     position: absolute;
     left: 80%;
-    top: 61%;
+    top: 59%;
     display:none;
 }
 #validation6{
     width: 20px;
     position: absolute;
     left: 81%;
-    top: 61%;
+    top: 59%;
     display: none;
 }
 #number{
@@ -329,7 +332,7 @@ input[type='number']::-webkit-inner-spin-button ,input[type='number']::-webkit-o
     padding-top :25px;
     padding-bottom: 5px;
     margin: auto;
-    margin-top: -10px;
+    margin-top: -20px;
     background: transparent;
     
 }
@@ -387,40 +390,44 @@ input[type='number']::-webkit-inner-spin-button ,input[type='number']::-webkit-o
     margin-top: -25px;
 }
 #niveau{ 
-    height: 6.5vh;
-    width: 20rem;
+    height: 7vh;
+    width: 18.8rem;
     margin: auto;
     margin-top: 25px;
     border-radius: 5px;
     border:1px solid #0448a6;
     background-color: transparent;
+    outline: none;
 }
 #parcours{ 
-    height: 6.5vh;
-    width: 20rem;
+    height: 7vh;
+    width: 18.8rem;
     margin-top: 15px;
     border-radius: 5px;
     border:1px solid #0448a6;
     background-color: transparent;
+    outline: none;
 }
 
 /**#semestre{ 
     height: 5.5vh;
-    width: 17rem;
+    width: 18.8rem;
     margin-top: 15px;
     border-radius: 5px;
     border:1px solid #0448a6;
     background-color: transparent;
+    outline:none;
 }**/
 
 
 #specialite{ 
-    height: 6.5vh;
-    width: 20rem;
+    height: 7vh;
+    width: 18.8rem;
     margin-top: 15px;
     border-radius: 5px;
     border:1px solid #0448a6;
     background-color: transparent;
+    outline: none;
 }
 
 .btn3{

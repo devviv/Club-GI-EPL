@@ -1,0 +1,10 @@
+@media screen and (min-width:768px){
+    body{
+        font-size: calc(25px - 3px);
+    }
+
+    h1{
+        font-size: calc(30px - 5px);
+    }
+
+}

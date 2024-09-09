@@ -1,0 +1,90 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+.inter-tight {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color:#023ef1;
+}
+
+#form{
+    width: 30%;
+    height: 50vh;
+    border-radius: 5px;
+    padding: 2%;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(13, 21, 46);
+    background-color: #fff;
+    border: 2px solid #05050672;
+    animation: translation 3s ease-out;
+    display: none;
+}
+
+.input{
+    width: 100%;
+    margin: 5% 0%;
+    background-color: #fff;
+    height: 7vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1d1d274f;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    height: 8vh;
+    margin:5% 0%;
+    color: #01012c;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #01012c;
+    font-size: 20px;
+}
+
+@keyframes translation {
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.fondamentaleProf{
+    
+}
